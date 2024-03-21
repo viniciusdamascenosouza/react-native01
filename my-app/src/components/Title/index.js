@@ -1,12 +1,11 @@
 import React from "react";
 import { Text, View } from "react-native";
+import styles from "./style";
 
 export default function Title() {
   return (
-    <View>
-      <Text style={{color: "#931d89", fontWeight: "bold"}}>
-        OneBitHealth
-      </Text>
+    <View style={styles.boxTitle}>
+      <Text style={styles.textTitle}>OneBitHealth</Text>
     </View>
   );
 }
