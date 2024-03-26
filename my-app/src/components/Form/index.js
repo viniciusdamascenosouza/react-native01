@@ -53,15 +53,15 @@ export default function Form() {
           placeholder="75.365"
           keyboardType="numeric"
         />
-        
+
         <TouchableOpacity
-        style={styles.buttonCalculator}
-        onPress={() => {
-          validationImc()
-        }}>
+          style={styles.buttonCalculator}
+          onPress={() => {
+            validationImc();
+          }}
+        >
           <Text style={styles.textButtonCalculator}>{textButton}</Text>
         </TouchableOpacity>
-
       </View>
       <ResultImc messageResultImc={messageImc} ResultImc={imc} />
     </View>
