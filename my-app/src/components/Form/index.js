@@ -41,7 +41,7 @@ export default function Form() {
           style={styles.input}
           onChangeText={setHeight}
           value={height}
-          placeholder="Ex. 1.75"
+          placeholder="Ex. 1.77"
           keyboardType="numeric"
         />
 
